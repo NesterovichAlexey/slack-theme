@@ -10,7 +10,7 @@ Mac OS:
 ```js
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-   url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+   url: 'https://raw.githubusercontent.com/NesterovichAlexey/Slack-Theme/master/custom.css',
    success: function(css) {
      $("<style></style>").appendTo('head').html(css);
    }
@@ -20,3 +20,5 @@ document.addEventListener('DOMContentLoaded', function() {
 3.That's it! Restart Slack and see how well it works.
 
 NB: You'll have to do this every time Slack updates.
+
+Clone https://github.com/widget-/slack-black-theme
