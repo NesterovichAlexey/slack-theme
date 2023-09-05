@@ -1,4 +1,4 @@
-# Slack Black Theme
+# Slack Black Theme (Deprecated)
 
 A darker, more contrasty, Slack theme.
 
